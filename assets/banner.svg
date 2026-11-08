@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Danillo Silva, desenvolvedor de software e analista de Business Intelligence">
+  <defs>
+    <radialGradient id="glowL" cx="0" cy="0.5" r="0.75">
+      <stop offset="0" stop-color="#00f2fe" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00f2fe" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowR" cx="1" cy="1" r="0.6">
+      <stop offset="0" stop-color="#9d4edd" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#9d4edd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="330" y1="0" x2="580" y2="0">
+      <stop offset="0" stop-color="#00f2fe"/>
+      <stop offset="0.55" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#9d4edd"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" fill="#04060b"/>
+  <rect width="1200" height="360" fill="url(#glowL)"/>
+  <rect width="1200" height="360" fill="url(#glowR)"/>
+
+  <!-- Identidade -->
+  <rect x="60" y="62" width="392" height="34" rx="17" fill="#00f2fe" fill-opacity="0.08" stroke="#00f2fe" stroke-opacity="0.35"/>
+  <text x="80" y="84" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.2" fill="#00f2fe">DESENVOLVIMENTO &amp; BUSINESS INTELLIGENCE</text>
+
+  <text x="60" y="190" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="78" font-weight="800" fill="#f8fafc">Danillo <tspan fill="url(#name)">Silva</tspan></text>
+
+  <text x="60" y="238" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="20" fill="#00f2fe">Full-Stack <tspan fill="#475569">·</tspan> Dados <tspan fill="#475569">·</tspan> Automação</text>
+
+  <text x="60" y="283" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" fill="#94a3b8">Aplicações web, APIs e automações que transformam</text>
+  <text x="60" y="308" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" fill="#94a3b8">processos em código e dados em decisão.</text>
+
+  <!-- Janela de código -->
+  <rect x="700" y="50" width="440" height="260" rx="16" fill="#080d18" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M700 90 V66 a16 16 0 0 1 16 -16 H1124 a16 16 0 0 1 16 16 V90 Z" fill="#0b1222"/>
+  <line x1="700" y1="90" x2="1140" y2="90" stroke="#ffffff" stroke-opacity="0.08"/>
+  <circle cx="728" cy="70" r="5" fill="#ff5f57"/>
+  <circle cx="748" cy="70" r="5" fill="#febc2e"/>
+  <circle cx="768" cy="70" r="5" fill="#28c840"/>
+  <text x="1120" y="74" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="12" fill="#94a3b8">danillo.ts</text>
+
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="14" style="white-space:pre" xml:space="preserve">
+    <text x="724" y="118"><tspan fill="#c77dff">const</tspan><tspan fill="#f8fafc"> danillo </tspan><tspan fill="#94a3b8">= {</tspan></text>
+    <text x="724" y="140"><tspan fill="#00f2fe">  role</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00e676">'Full-Stack'</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="724" y="162"><tspan fill="#00f2fe">  stack</tspan><tspan fill="#94a3b8">: [</tspan><tspan fill="#00e676">'Angular'</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#00e676">'.NET'</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#00e676">'Python'</tspan><tspan fill="#94a3b8">],</tspan></text>
+    <text x="724" y="184"><tspan fill="#00f2fe">  data</tspan><tspan fill="#94a3b8">: [</tspan><tspan fill="#00e676">'SQL'</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#00e676">'Power BI'</tspan><tspan fill="#94a3b8">, </tspan><tspan fill="#00e676">'ETL'</tspan><tspan fill="#94a3b8">],</tspan></text>
+    <text x="724" y="206"><tspan fill="#00f2fe">  location</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#00e676">'Matão, SP'</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="724" y="228"><tspan fill="#00f2fe">  remote</tspan><tspan fill="#94a3b8">: </tspan><tspan fill="#f59e0b">true</tspan><tspan fill="#94a3b8">,</tspan></text>
+    <text x="724" y="250"><tspan fill="#94a3b8">};</tspan></text>
+    <text x="724" y="294"><tspan fill="#c77dff">await</tspan><tspan fill="#f8fafc"> danillo</tspan><tspan fill="#94a3b8">.</tspan><tspan fill="#3b82f6">build</tspan><tspan fill="#94a3b8">(</tspan><tspan fill="#00e676">'seu projeto'</tspan><tspan fill="#94a3b8">);</tspan></text>
+  </g>
+  <rect x="1031" y="281" width="8" height="16" fill="#00f2fe">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
